@@ -1,0 +1,6 @@
+Package: packageA
+Version: 0.1.7
+Imports: glue
+Suggests: testthat (>= 3.0.0)
+License: file LICENSE
+MD5sum: 66644c0fda8c99e7853ea26c1fe82b46
