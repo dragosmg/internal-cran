@@ -1,0 +1,5 @@
+Package: packageA
+Version: 0.1.7
+Imports: glue
+Suggests: testthat (>= 3.0.0)
+License: file LICENSE
