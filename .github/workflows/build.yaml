@@ -26,6 +26,12 @@ jobs:
           - { os: ubuntu-20.04, r: '4.1', src: true }
           - { os: ubuntu-20.04, r: '4.2', src: false }
           - { os: ubuntu-20.04, r: '4.3', src: false }
+          - { os: windows-latest, r: '4.1', src: false }
+          - { os: windows-latest, r: '4.2', src: false }
+          - { os: windows-latest, r: '4.3', src: false }
+          - { os: macos-latest, r: '4.1', src: false }
+          - { os: macos-latest, r: '4.2', src: false }
+          - { os: macos-latest, r: '4.3', src: false }
     steps:
       # checkout drat repo
       - uses: actions/checkout@v3
