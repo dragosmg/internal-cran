@@ -45,4 +45,4 @@ Version: 0.4.0
 Imports: glue, packageA (>= 0.3.0)
 Suggests: testthat (>= 3.0.0)
 License: file LICENSE
-MD5sum: 44358b69d57e5079d99f84a72468d650
+MD5sum: 39945436412f4491c64493e9c8037069
