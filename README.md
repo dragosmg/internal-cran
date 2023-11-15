@@ -25,9 +25,8 @@ to your `.Rprofile`:
 
 ``` r
 local({
-  r = getOption("repos")
-  r["CRAN"] = "https://cran.rstudio.com/"
-  r["Internal CRAN"] = "https://dragosmg.github.io/internal-cran/"
+  r <- getOption("repos")
+  r["Internal CRAN"] <- "https://dragosmg.github.io/internal-cran/"
   options(repos = r)
 })
 ```
