@@ -4,3 +4,10 @@ Imports: glue
 Suggests: testthat (>= 3.0.0)
 License: file LICENSE
 MD5sum: 66644c0fda8c99e7853ea26c1fe82b46
+
+Package: packageA
+Version: 0.2.0
+Imports: glue
+Suggests: testthat (>= 3.0.0)
+License: file LICENSE
+MD5sum: c320b02a7d9df7c5d457182ae1656cc0
