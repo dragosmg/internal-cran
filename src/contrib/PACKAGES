@@ -97,5 +97,13 @@ Version: 0.3.0
 Imports: glue, packageA (>= 0.3.0)
 Suggests: testthat (>= 3.0.0)
 License: file LICENSE
-MD5sum: a808a05fb03f28b3b45b3c2b645bf978
+MD5sum: ce81155b91f31762195c274251030026
+NeedsCompilation: no
+
+Package: packageB
+Version: 0.3.0
+Imports: glue, packageA (>= 0.3.0)
+Suggests: testthat (>= 3.0.0)
+License: file LICENSE
+MD5sum: a2730c57a43f0c5368dc234c472b91a4
 NeedsCompilation: no
