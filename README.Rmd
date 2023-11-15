@@ -1,12 +1,22 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
 <!-- badges: start -->
 <!-- badges: end -->
 
 # CRAN-like Package Repository
 
-This repo is an example of how you can build an R package repository
-using GitHub Pages and the {drat} package.
+This repo is an example of how you can build an R package repository using GitHub Pages and the {drat} package. 
 
 ## For package users - how to install packages
 
@@ -14,16 +24,15 @@ using GitHub Pages and the {drat} package.
 
 For example, you can install {packageA} like this:
 
-``` r
+```r
 install.packages("packageA", repos = "https://dragosmg.github.io/internal-cran/")
 ```
 
 ### Add internal-cran to your .Rprofile
 
-Add `internal-cran` to your list or repositories by adding the following
-to your `.Rprofile`:
+Add `internal-cran` to your list or repositories by adding the following to your `.Rprofile`:
 
-``` r
+```r
 local({
   r = getOption("repos")
   r["CRAN"] = "https://cran.rstudio.com/"
@@ -32,11 +41,11 @@ local({
 })
 ```
 
-After that you can simply install packages like normal. For example, you
-can install {packageA} like this:
+After that you can simply install packages like normal. For example, you can install {packageA} like this:
 
-``` r
+```r
 install.packages("packageA")
 ```
 
 ### For package authors
+
