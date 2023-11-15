@@ -124,6 +124,14 @@ License: file LICENSE
 MD5sum: a4a82e04ed2340e0e74d4ea41ffa040d
 NeedsCompilation: no
 
+Package: packageB
+Version: 0.4.1
+Imports: glue, packageA (>= 0.3.0)
+Suggests: testthat (>= 3.0.0)
+License: file LICENSE
+MD5sum: 2e0160e4b94f49aa6e1ab75e11aa5c43
+NeedsCompilation: no
+
 Package: packageC
 Version: 0.1.0
 Imports: glue, packageA, packageB
