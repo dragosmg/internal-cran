@@ -155,3 +155,19 @@ Suggests: testthat (>= 3.0.0)
 License: file LICENSE
 MD5sum: d626685b528ae712f9bf975fd2994c33
 NeedsCompilation: no
+
+Package: packageC
+Version: 0.1.2
+Imports: glue, packageA, packageB
+Suggests: testthat (>= 3.0.0)
+License: file LICENSE
+MD5sum: 774f4c732f7a15db56132c92bf56a5ed
+NeedsCompilation: no
+
+Package: packageC
+Version: 0.1.2
+Imports: glue, packageA, packageB
+Suggests: testthat (>= 3.0.0)
+License: file LICENSE
+MD5sum: fa2a9d50d33952ffd2a449cad4becf71
+NeedsCompilation: no
