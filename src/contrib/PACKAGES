@@ -25,7 +25,7 @@ Version: 0.2.0
 Imports: glue
 Suggests: testthat (>= 3.0.0)
 License: file LICENSE
-MD5sum: 86b799f3c245a06b246104140e840bdb
+MD5sum: ab05fe9e18a26e15e5c10d73aa18317b
 NeedsCompilation: no
 
 Package: packageA
