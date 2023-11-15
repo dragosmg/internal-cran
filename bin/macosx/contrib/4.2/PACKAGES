@@ -47,6 +47,13 @@ Suggests: testthat (>= 3.0.0)
 License: file LICENSE
 MD5sum: 5cbcae85af8773b0a4980083ba36d8d4
 
+Package: packageB
+Version: 0.4.1
+Imports: glue, packageA (>= 0.3.0)
+Suggests: testthat (>= 3.0.0)
+License: file LICENSE
+MD5sum: a10f09bf086acf355fd5d678eb5aac8d
+
 Package: packageC
 Version: 0.1.0
 Imports: glue, packageA, packageB
