@@ -9,3 +9,9 @@ Version: 0.2.0
 Imports: glue
 Suggests: testthat (>= 3.0.0)
 License: file LICENSE
+
+Package: packageA
+Version: 0.3.0
+Imports: glue
+Suggests: testthat (>= 3.0.0)
+License: file LICENSE
