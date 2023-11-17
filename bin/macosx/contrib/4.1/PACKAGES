@@ -31,7 +31,7 @@ Version: 0.3.5
 Imports: glue
 Suggests: testthat (>= 3.0.0)
 License: file LICENSE
-MD5sum: 43f0b7581f33f8f5f6e03bd042375fad
+MD5sum: afcc5b4830cdd05af5991a707f7c4095
 
 Package: packageB
 Version: 0.2.0
