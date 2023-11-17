@@ -14,11 +14,6 @@ on:
         description: 'path to package root in repo'
         default: 'pkg'
         required: false
-      debug_enabled:
-        type: boolean
-        description: 'Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)'
-        required: false
-        default: true
 
 jobs:
   build:
@@ -38,10 +33,6 @@ jobs:
           - { os: macos-latest, r: '4.2', src: false }
           - { os: macos-latest, r: '4.3', src: false }
     steps:
-      # Enable tmate debugging of manually-triggered workflows if the input option was provided
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v3
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.debug_enabled }}
       # checkout drat repo
       - uses: actions/checkout@v3
         with:
