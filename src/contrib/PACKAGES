@@ -81,7 +81,7 @@ Version: 0.3.5
 Imports: glue
 Suggests: testthat (>= 3.0.0)
 License: file LICENSE
-MD5sum: b46e8ac68d3551ee90b33c9ba905ce24
+MD5sum: 704280d10e94dc0cc538703cdc07ac90
 NeedsCompilation: no
 
 Package: packageA
