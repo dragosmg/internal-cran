@@ -58,7 +58,8 @@ jobs:
           pandoc-version: '2.17.1' # The pandoc version to download (if necessary) and use.
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          working-directory: ${{ github.event.inputs.pkg_path}}
+          # working-directory: ${{ github.event.inputs.pkg_path}}
+          working-directory: pkg
           extra-packages: |
             github::eddelbuettel/drat
             github::r-lib/devtools
