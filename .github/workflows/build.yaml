@@ -14,6 +14,11 @@ on:
         description: 'path to package root in repo'
         default: 'pkg'
         required: false
+      debug_enabled:
+        type: boolean
+        description: 'Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)'
+        required: false
+        default: true
 
 jobs:
   build:
